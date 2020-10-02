@@ -24,6 +24,7 @@ input[type=text] {
 	display: block;
 	margin: 8px auto;
 	width: 30%;
+	min-width: 150px;
 	height: 40px;
 	font-size: 16px;
 	font-family: Georgia, 'Times New Roman', Times, serif;
@@ -38,6 +39,7 @@ input[type=text] {
 
 input[type=password] {
 	width: 30%;
+	min-width: 150px;
 	display: block;
 	margin: 8px auto;
 	font-size: 16px;
@@ -54,6 +56,7 @@ input[type=password] {
 
 input[type=date] {
 	width: 30%;
+	min-width: 150px;
 	display: block;
 	margin: 8px auto;
 	font-size: 16px;
@@ -90,6 +93,7 @@ select {
 	outline: red;
 	padding: 2px 8px;
 	width: 30%;
+	min-width: 150px;
 	border-radius: 18px 40px;
 }
 
@@ -99,6 +103,7 @@ input[type=submit] {
 	border: 1px solid black;
 	outline: red;
 	width: 25%;
+	min-width: 100px;
 	background-color: green;
 	cursor: pointer;
 	font-size: 16px;
