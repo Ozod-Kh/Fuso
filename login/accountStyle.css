@@ -1,0 +1,83 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.main {
+	height: 500px;
+	width: 100%;
+	display: flex;
+	margin: auto;
+	background: radial-gradient(rgba(241, 214, 214, 0.904), #8ce4de);
+}
+
+.cont {
+	margin: 60px auto 150px;
+	width: 30%;
+	height: 400px;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	padding-left: 50px;
+	background-color: rgba(44, 16, 16, 0.719);
+	border-color: crimson;
+	border: 1px solid;
+
+	box-shadow: 5px 10px 8px 10px rgb(29, 25, 25);
+}
+.usname {
+	margin: 25px;
+}
+.pass {
+	margin: 25px;
+}
+.btn-log {
+	margin: 25px;
+}
+
+button {
+	cursor: pointer;
+	outline: none;
+	width: 120px;
+	height: 30px;
+	color: teal;
+	border-radius: 25px;
+	border-color: crimson;
+	background-color: transparent;
+	margin-left: 60px;
+}
+
+button:hover {
+	transform: translate(2px, -3px);
+	box-shadow: 1px 1px 10px blue;
+}
+
+input {
+	padding-left: 20px;
+	border-radius: 25px;
+	height: 30px;
+	width: 250px;
+	border-color: crimson;
+	background-color: transparent;
+	color: white;
+	outline: none;
+}
+
+input:hover {
+	box-shadow: 1px 1px 10px blue;
+}
+
+.log {
+	margin-left: 25px;
+	color: wheat;
+	font-family: cursive;
+}
+.foll {
+	color: wheat;
+	margin-left: 30px;
+}
+
+.foll a {
+	color: blue;
+}

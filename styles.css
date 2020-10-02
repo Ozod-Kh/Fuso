@@ -1,0 +1,446 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Poppins', sans-serif;
+}
+.header {
+	background: radial-gradient(rgba(255, 255, 255, 0.904), #aef0ec);
+}
+
+.navbar {
+	display: flex;
+	align-items: center;
+	padding: 20px;
+}
+
+nav {
+	flex: 1;
+	text-align: right;
+}
+
+nav ul {
+	display: inline-block;
+	list-style: none;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: #555;
+}
+p {
+	color: #555;
+}
+.container {
+	max-width: 1300px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.row {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.header .row {
+	margin-top: 50px;
+}
+
+.col-2 {
+	flex-basis: 50%;
+	min-width: 300px;
+}
+
+.col-2 img {
+	max-width: 100%;
+	padding: 50px 0;
+}
+
+.col-2 h1 {
+	font-size: 50px;
+	line-height: 60px;
+	margin: 25px 0;
+}
+
+.btn {
+	display: inline-block;
+	background: rgb(236, 120, 42);
+	color: rgb(218, 204, 204);
+	padding: 8px 30px;
+	border-radius: 25px;
+	margin: 30px 0;
+}
+
+.btn:hover {
+	background: orangered;
+	color: white;
+	padding: 10px 35px;
+}
+
+.categories {
+	margin: 60px 0;
+}
+
+.categories .row .col-3:hover {
+	transform: translateY(-8px);
+	cursor: pointer;
+	transition: transform 0.2s;
+}
+
+.col-3 {
+	flex-basis: 30%;
+	min-width: 250px;
+	margin-bottom: 30px;
+	cursor: pointer;
+}
+.col-3 img {
+	width: 100%;
+}
+
+.second-container {
+	max-width: 1080px;
+	margin: auto;
+	padding-left: 24px;
+	padding-right: 24px;
+}
+
+.col-4 {
+	transition: transform 0.2s;
+	flex-basis: 25%;
+	padding-right: 12px;
+	min-width: 200px;
+	margin-bottom: 50px;
+	cursor: pointer;
+}
+
+.col-4 img {
+	width: 100%;
+}
+
+.rating {
+	color: rgb(255, 145, 0);
+}
+.title {
+	color: #555;
+	text-align: center;
+	margin: 0 auto 60px;
+	position: relative;
+	line-height: 60px;
+}
+.title::after {
+	content: '';
+	background-color: #ff523b;
+	width: 80px;
+	height: 5px;
+	border-radius: 10px;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.col-4 p {
+	font-size: 14px;
+}
+
+.col-4:hover {
+	transform: translateY(-10px);
+}
+.col-2 .exlusive-pic {
+	padding: 60px;
+}
+
+.exclusive {
+	background: radial-gradient(rgba(255, 255, 255, 0.904), #aef0ec);
+	margin-top: 30px;
+	padding: 30px 0;
+}
+
+.testimonal {
+	padding-top: 60px;
+}
+
+.testimonal .col-3 {
+	text-align: center;
+	padding: 40px 20px;
+	box-shadow: 0 0 20px 0px rgba(3, 2, 2, 0.3);
+	cursor: pointer;
+	transition: transform 0.2s;
+}
+
+.testimonal .col-3 img {
+	width: 100px;
+	margin-top: 25px;
+	border-radius: 50%;
+}
+.testimonal .col-3:hover {
+	transform: translateY(-10px);
+}
+
+.col-3 p {
+	margin: 10px 0;
+	font-size: 14px;
+}
+
+.footer {
+	background: rgba(19, 1, 1, 0.87);
+	color: white;
+	font-size: 14px;
+	padding: 60px 0 20px;
+}
+
+.footer p {
+	color: white;
+}
+
+.footer h3 {
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.footer-col-1,
+.footer-col-2,
+footer-col-3 {
+	min-width: 240px;
+	margin-bottom: 20px;
+}
+
+.footer-col-1 {
+	flex-basis: 30%;
+}
+
+.footer-col-2 {
+	flex: 1;
+	text-align: center;
+}
+
+.footer-col-2 img {
+	width: 180px;
+	margin-bottom: 20px;
+}
+
+.footer-col-3 {
+	flex-basis: 12%;
+	text-align: center;
+}
+
+.footer ul li {
+	list-style: none;
+	margin: 10px 5px;
+}
+.footer ul li a {
+	color: rgb(218, 204, 204);
+}
+
+.footer ul li:hover {
+	transform: translateY(-4px);
+}
+
+.app-logo {
+	margin: 20px auto;
+}
+.app-logo img:hover {
+	transform: translate(2px, -2px);
+}
+
+.app-logo img {
+	width: 150px;
+	outline: none;
+}
+
+.footer hr {
+	border: none;
+	height: 1px;
+	background: gainsboro;
+	margin: 40px 60px;
+}
+
+.copyright {
+	text-align: center;
+}
+
+.menu {
+	width: 25px;
+	margin: 0 20px;
+	display: none;
+	cursor: pointer;
+}
+.menu img {
+	margin-top: 10px;
+}
+
+nav ul li a:hover {
+	color: brown;
+}
+
+@media only screen and (max-width: 800px) {
+	nav ul {
+		position: absolute;
+		left: 0;
+		top: 80px;
+		width: 100%;
+		background: rgb(12, 5, 34);
+		transition: max-height 1s;
+		overflow: hidden;
+	}
+
+	nav ul li {
+		display: block;
+		padding: 10px 30px 10px 0;
+		outline: none;
+	}
+	nav ul li a:hover {
+		color: lime;
+		text-shadow: 4px 3px 5px lime;
+	}
+
+	nav ul li a {
+		color: white;
+		padding: 0 20px;
+	}
+	.menu {
+		display: block;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.row {
+		text-align: center;
+	}
+	.col-2,
+	.col-3 {
+		width: 100%;
+	}
+	.each-product .row {
+		text-align: left;
+	}
+	.each-product .col-2 {
+		padding: 20px 10px;
+	}
+
+	.each-product h1 {
+		font-size: 24px;
+	}
+
+	.second-container h1 {
+		font-size: 24px;
+	}
+}
+
+/* this is the styling for the Products page */
+
+.row-products {
+	justify-content: space-around;
+	margin: 90px auto 50px;
+}
+
+.change-btn {
+	margin: 5px auto 60px;
+}
+
+.change-btn span {
+	display: inline-block;
+	border: 1px solid black;
+	margin-left: 10px;
+	height: 30px;
+	width: 30px;
+	text-align: center;
+	line-height: 30px;
+	cursor: pointer;
+}
+
+.change-btn span:hover {
+	background: orange;
+	color: white;
+	transform: translateY(-2px);
+}
+
+/* Details styling  */
+
+.details {
+	margin: 30px auto;
+}
+
+.each-product {
+	margin-top: 70px;
+}
+
+.each-product .col-2 {
+	padding: 20px;
+}
+
+.each-product select {
+	display: block;
+	margin-top: 10px;
+	border: 1px solid orange;
+	outline: none;
+	border-radius: 12px;
+	padding: 5px;
+}
+
+.each-product input {
+	padding-left: 10px;
+	width: 40px;
+	height: 40px;
+	margin-right: 20px;
+	font-size: 18px;
+	border: 1px solid orange;
+	border-radius: 12px;
+	outline: none;
+}
+
+.small-img-row {
+	display: flex;
+	justify-content: space-around;
+}
+
+.small-img-col {
+	flex-basis: 23%;
+
+	cursor: pointer;
+}
+
+.small-img-col:hover {
+	transform: translateY(-4px);
+}
+
+.viewMore {
+	position: relative;
+	right: 40px;
+	text-align: right;
+	margin: 0 auto 50px;
+}
+
+/* About page styling */
+
+.about .row {
+	margin: 100px 40px;
+}
+
+/* contact page styling */
+
+.contact .row {
+	width: 100%;
+	height: 200px;
+	cursor: default;
+	justify-content: center;
+}
+
+.contact .row p a {
+	color: mediumblue;
+}
+
+.contact h2 {
+	margin-top: 50px;
+	text-align: center;
+}
