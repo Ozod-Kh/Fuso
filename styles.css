@@ -74,7 +74,7 @@ p {
 
 .btn {
 	display: inline-block;
-	background: rgb(236, 120, 42);
+	background: rgb(42, 71, 236);
 	color: rgb(218, 204, 204);
 	padding: 8px 30px;
 	border-radius: 25px;
@@ -82,7 +82,7 @@ p {
 }
 
 .btn:hover {
-	background: orangered;
+	background: rgb(30, 2, 94);
 	color: white;
 	padding: 10px 35px;
 }
@@ -131,7 +131,7 @@ p {
 	color: rgb(255, 145, 0);
 }
 .title {
-	color: #555;
+	color: rgb(53, 52, 52);
 	text-align: center;
 	margin: 0 auto 60px;
 	position: relative;
@@ -139,7 +139,7 @@ p {
 }
 .title::after {
 	content: '';
-	background-color: #ff523b;
+	background-color: #4e0c7a;
 	width: 80px;
 	height: 5px;
 	border-radius: 10px;

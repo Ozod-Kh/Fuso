@@ -134,7 +134,37 @@ label {
 	margin-bottom: 20px;
 }
 
+@media only screen and (max-width: 800px) {
+	.reg-container {
+		width: 80%;
+	}
+	input[type=text] {
+		width: 70%;
+		height: 25px;
+		font-size: 12px;
+	}
+	input[type=date] {
+		width: 70%;
+		height: 25px;
+		font-size: 12px;
+	}
+	input[type=password] {
+		width: 70%;
+		height: 25px;
+		font-size: 12px;
+	}
+
+	select {
+		width: 70%;
+		height: 25px;
+		font-size: 12px;
+	}
+}
+
 @media only screen and (max-width: 600px) {
+	.reg-container {
+		width: 80%;
+	}
 	input[type=text] {
 		width: 70%;
 		height: 25px;
